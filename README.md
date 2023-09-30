@@ -1,26 +1,36 @@
-# SimplyWrite
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-SimplyWrite is a web application built with Next.js and Vercel that allows users to sign in, write notes, and store them securely. This app is designed to showcase my web development skills and incorporates various technologies for a seamless user experience.
+## Getting Started
 
-## Features
+First, run the development server:
 
-- **User Authentication**: Utilizes Firebase for secure user authentication.
-- **Note Taking**: Users can easily create, edit, and delete notes within the application.
-- **Data Storage**: Firebase is used to store and retrieve user notes securely.
-- **UI Design**: Chakra UI is employed to create a clean and responsive user interface.
-- **Payment Integration**: Stripe is integrated for handling payments, with a 1-week free trial and a $5 per month subscription fee.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Deployment
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This application is set up for deployment on Vercel. Ensure your Vercel account is linked to the GitLab repository for seamless deployment.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## License
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-This project is licensed under the [MIT License](LICENSE).
+## Learn More
 
-## Acknowledgments
+To learn more about Next.js, take a look at the following resources:
 
-- Thanks to the open-source community for providing powerful tools and frameworks.
-- Inspiration from real-world applications for creating a practical and user-friendly experience.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Feel free to explore, contribute, and use SimplyWrite to showcase your web development skills!
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
